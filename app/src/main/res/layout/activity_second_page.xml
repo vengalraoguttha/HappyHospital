@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vengalrao.happyhospital.SecondPage"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PATIENT TREATMENT PREREQUEST FORM"
+            android:id="@+id/textView2" />
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fill the following details carefully"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ailments:(List all the ailments)"
+        android:id="@+id/textView4" />
+
+    <EditText
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/e1"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_height="30dp"
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/e2"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/e3"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/e4"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previously Suffered from any of the above ailments"
+        android:id="@+id/c1"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/b1"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
